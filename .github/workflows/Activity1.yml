@@ -14,5 +14,5 @@ jobs:
         go-version: '1.18'
     - name: Checking Go version
     - run: |
-        go version 
+        go version
         ls

@@ -5,9 +5,10 @@ on:
     branches: [main]
 
 jobs:
-  build:
+ build:
     runs-on: ubuntu-latest
     steps:
+    - uses: 
     - name: Setup Go Environment
     - uses: actions/setup-go@v2
       with:

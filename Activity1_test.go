@@ -9,7 +9,7 @@ import (
 func TestHelloWorld(t *testing.T) {
 	g := Goblin(t)
 	g.Describe("Activity 1", func() {
-		g.Assert(printHello()).Equal("Hello World!")
+		g.Assert(HelloWorld()).Equal("Hello World!")
 	})
 
 }
